@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(img/paysage.jpg);
+    display: flex;
+    margin: 0;
+    font-family: "Arial Black", sans-serif;
+    flex-direction: column;  
+    justify-items: center; 
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Cadre{
+    margin: 40% 0;
+    background: #bdbdbd;
+    border: 1px solid #000;
+    border-radius: 2em;
+    padding: 25px;
+    width: fit-content;
+}
+h1{
+    color: rgb(80, 56, 56);
+    margin: 0;
+    font-family: "Comic Sans MS",sans-serif;
+}
+h2{
+    color: rgb(80, 56, 56);
+    margin: 0 0 10px 0;
+    font-family: "Comic Sans MS",sans-serif;
+}
+p{
+    color: rgb(73, 79, 73);
+    margin: 0;
+}
